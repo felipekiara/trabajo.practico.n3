@@ -1,0 +1,128 @@
+* {
+    box-sizing: border-box;
+}
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    background-color: #f5f7fa;
+    color: #222;
+    line-height: 1.5;
+}
+.site-header {
+    background-color: #b3005a;   
+    color: #fff;
+    text-align: center;
+    padding: 24px 12px;
+}
+.titulo-principal {
+    font-size: 34px;
+    margin: 0;
+}
+.subtitulo {
+    font-size: 18px;
+    font-weight: 400;
+    margin-top: 6px;
+}
+.menu {
+    list-style: none;
+    padding: 10px 0 0 0;
+    margin: 8px 0 0 0;
+}
+.menu-item {
+    display: inline-block;
+    margin: 0 18px;
+    font-weight: bold;
+    color: #eaf4ff;
+    cursor: pointer;
+}
+.menu-item:hover {
+    text-decoration: underline;
+}
+.intro h1 { font-size: 28px; text-align:center; margin-top: 26px; color: #003366; }
+.intro h2 { font-size: 20px; text-align:center; margin-top: 8px; color: #444; }
+.intro h3 { font-size: 16px; text-align:center; margin-top: 6px; color: #666; }
+
+.galeria-contenedor {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin: 30px 0;
+}
+.galeria {
+    display: flex;
+    gap: 28px;
+    justify-content: center;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    width: 90%;
+    max-width: 1100px;
+}
+.curso {
+    background-color: #fff;
+    border-radius: 10px;
+    width: 320px;
+    padding: 12px;
+    box-shadow: 0 3px 8px rgba(0,0,0,0.12);
+    text-align: center;
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+.curso:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 5px 12px rgba(0,0,0,0.18);
+}
+.curso-img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 8px;
+}
+.descripcion {
+    margin-top: 10px;
+    font-size: 15px;
+    color: #444444;
+}
+.mapa {
+    text-align: center;
+    margin: 26px 0 40px 0;
+}
+.mapa h2 {
+    font-size: 20px;
+    margin-bottom: 12px;
+    color: #003366;
+}
+.mapa iframe {
+    max-width: 90%;
+    height: 320px;
+    border-radius: 8px;
+    border: 0;
+}
+.servicios {
+    text-align: center;
+    margin-bottom: 30px;
+}
+.lista-servicios {
+    list-style: none;
+    padding: 0;
+    margin: 12px auto;
+    display: inline-block;
+    text-align: left;
+}
+.lista-servicios li {
+    margin: 8px 0;
+    padding-left: 14px;
+    position: relative;
+}
+.lista-servicios li::before {
+    content: "✔";
+    color: #0056b3;
+    position: absolute;
+    left: -14px;
+}
+
+.site-footer {
+    background-color: #800013;
+    color: #fff;
+    text-align: center;
+    padding: 14px 10px;
+    font-size: 14px;
+}
